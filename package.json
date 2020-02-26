@@ -15,7 +15,7 @@
     "express-recaptcha": "^2.3.0",
     "express-session": "^1.15.6",
     "form-data": "^2.3.1",
-    "handlebars": "^4.0.11",
+    "handlebars": "^4.3.0",
     "handlebars-helpers": "^0.9.8",
     "helmet": "^3.9.0",
     "imagemin": "^5.3.1",
