@@ -1590,9 +1590,9 @@ header#hero .header-text {
 /* Fullwidth Header */
 
 header#fullwidth {
-    background-position: center 50px;
+    background-position: center 60px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
 }
 header#fullwidth {
     min-height: 100%;
@@ -1762,12 +1762,12 @@ header#hero-sm .header-text {
 /* ========== Hero Backgrounds ========== */
 
 .homepage {
-    background-color: rgb(182, 205, 208);
-    background-image: url(/media/image-backgrounds/fullwidth-header-small.png);
+    background-color: var(--mainColor);
+    background-image: url(/media/image-backgrounds/header.gif);
 
 		@media(min-width: 768px) {
 			& {
-				background-image: url(/media/image-backgrounds/fullwidth-header.png);
+				background-image: url(/media/image-backgrounds/header.gif);
 			}
 		}
 }
