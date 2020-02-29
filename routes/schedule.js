@@ -61,9 +61,8 @@ router.get('/', async (req, res) => {
       title: pageTitle,
       title_hash: hashTitle,
       description: pageDescription,
-      day1: schedule['04-10-2019'],
-      day2: schedule['05-10-2019'],
-      day3: schedule['06-10-2019']
+      day1: schedule['26-05-2020'],
+      day2: schedule['27-05-2020']
     });
   }
   catch (error) {
