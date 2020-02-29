@@ -6,7 +6,7 @@ const moment = require('moment-timezone');
 /* GET home page. */
 
 const hashTitle = '#BSSC20';
-const pageDescription = 'Black Swan Security Congress is one of the premier events for hackers, artists, activists, libertarians, and cryptoenthusiasts in Europe.';
+const pageDescription = 'Black Swan Security Congress is the event for IT security professional community and is dedicated to exceptional risks which hardly anybody pays attention to.';
 const includeHeader = true;
 
 router.get('/', recaptcha.middleware.render, async (req, res) => {
